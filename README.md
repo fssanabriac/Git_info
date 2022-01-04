@@ -11,8 +11,10 @@ making multiple copies of the same files to keep track of content changes. Now, 
 changes in a folder called .git. Furthermore, it allows to work in different work environments called **branches**, so you 
 can work in parallel different stages of your project.
 
-For a first introduction it is advised to read the following `man` pages: `git`, `gittutorial`, and  `giteveryday`. Bellow
-are some of the most used commands in Git.
+For a first introduction it is advised to read the following `man` pages: `git`, `gittutorial`, and  `giteveryday`. If you
+need help with any git command, you can use `man git-command` or `git help command`.
+
+Bellow are some of the most used commands in Git.
 
 ### Basic commands
 
