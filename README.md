@@ -24,12 +24,16 @@ git init
 
 # Add all files in the current directory 
 git add .
+git add file1 file2 file3
 
 # View staged files
 git status
 
 # Commit staged files to currente branch with a brief message
 git commit -m "Commit message"
+
+# Commit changes in all tracked files
+git commit -am "Commit message"
 
 # View commit log
 git log
@@ -47,10 +51,24 @@ git remote -v
 # Upload commited changes to the remote repo
 git push
 # git push origin main
+
+# Get code from remote to local
+git pull
 ```
 
 ### Branch manipulation
 
 ```
-# git branch 
+
+# Get list of branches
+git branch 
+
+# Create new branch
+git branch new_branch_name
+
+# Change branch
+git checkout new_working_branch
+
+# Merge current branch to main branch
+git merge branch_to_merge
 ```
