@@ -1,6 +1,12 @@
 
 ## Trying Git and Github workflow
 
+Git is a Version Control management system used to organize and keep track of code. Developed by Linus Torvalds, it was 
+first thought to help with the development of the Linux Kernel. As the scope of the work done in the Kernel grew bigger,
+massive collaboration of developers become difficult to  manage, so Linus created this new system. 
+
+Git allows to work not only with others but also helps in the development of personal projects. 
+
 ### Basic commands
 
 ```
