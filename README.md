@@ -9,7 +9,7 @@ At that moment there was a version control system called CVS, but Linus decided 
 Git allows to work not only with others but also helps in the development of personal projects. Long gone are the days of 
 making multiple copies of the same files to keep track of content changes. Now, a git project keeps track of the different
 changes in a folder called .git. Furthermore, it allows to work in different work environments called **branches**, so you 
-can work in parallel different stages of your project.
+can work in parallel with different stages of your project.
 
 For a first introduction it is advised to read the following `man` pages: `git`, `gittutorial`, and  `giteveryday`. If you
 need help with any git command, you can use `man git-command` or `git help command`.
