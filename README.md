@@ -72,3 +72,18 @@ git checkout new_working_branch
 # Merge current branch to main branch
 git merge branch_to_merge
 ```
+
+### Manage Merge conflicts
+
+```
+# Fetch code from online repo
+git fetch
+
+# View wich files are the root of the conflict
+git status
+
+# Select changes to keep using editor of choice
+vim conflict_file
+
+# Add, commit and pull
+```
