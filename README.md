@@ -87,3 +87,25 @@ vim conflict_file
 
 # Add, commit and pull
 ```
+
+### Git stash
+
+```
+# Save current work to commit later. The branch will revert to 
+# previous commit.
+git stash save "Stash message"
+
+# List all previous stash saved 
+git stash list
+
+# Get back changes saved to current branch, it will still be on 
+# the stash list
+git stash apply nameOfStash
+
+# Retrieve first item of the stash list to current branch, and remove 
+# it from it stash list
+git stash pop
+
+# Remove given stash saved
+git stash drop nameOfStash
+```
